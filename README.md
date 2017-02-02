@@ -13,6 +13,11 @@ Examples:
 - 'translate 2012 to roman'
 - 'translate ٣٨٦ to roman'
 
+It also supports multiple number translations at once (comma or space seperate).
+
+- 'translate ٣٨٦, ٣ to roman'
+
+
 Output: 
 `
 >>  translate 145 into roman numbers
@@ -23,4 +28,8 @@ Output:
 
 >>  translate ٣٨٦ to roman
 ٣٨٦ : ( 386 )  CCCLXXXVI
+
+>> translate ٣٨٦, ٣ to roman
+٣٨٦, : ( 386 )  CCCLXXXVI
+٣ : ( 3 )  III
 '
